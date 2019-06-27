@@ -1,0 +1,25 @@
+.card {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+}
+
+.card-big .card .img-fluid {
+    height: 70vh;
+}
+
+@media (min-width: 768px) {
+    .card-column {
+        height: 65vh;
+        overflow-y: scroll;
+    }
+    .card-big .card {
+        width: 50%;
+    }
+}
+
+body {
+    background-image: url("./images/background.jpeg");
+    background-size: cover;
+    color: white;
+}
